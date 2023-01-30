@@ -2,6 +2,9 @@ package org.example.jzbank;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import static java.lang.System.*;
+
 public class ReadTest {
     public static void main(String[] args) throws Exception {
         final String SLB = "slb member s_";
@@ -9,10 +12,9 @@ public class ReadTest {
         int port;
         ArrayList<Integer> ar = new ArrayList<>();
         ArrayList<String> writeList = new ArrayList<>();
-        Scanner sc = new Scanner(System.in);
-        String readFilename ;
-        System.out.println("请输入桌面上要读取的文件名");
-        readFilename = sc.next();
+        Scanner sc = new Scanner(in);
+        out.println("请输入桌面上要读取的文件名");
+        String readFilename = sc.next();
         String fileName = "C:\\Users\\24741\\Desktop\\" + readFilename;
         File file = new File(fileName);
         FileInputStream fis = new FileInputStream(file);
@@ -36,7 +38,7 @@ public class ReadTest {
         }
         br.close();
         try {
-            System.out.println("请输入文件名");
+            out.println("请输入文件名");
             String outFileName = sc.next();
             String fileType = ".txt";
             File outFile = new File("C:\\Users\\24741\\Desktop\\" + outFileName + fileType);
@@ -46,7 +48,7 @@ public class ReadTest {
             }
             writer.close();
         } catch (Exception e) {
-            System.out.println();
+            out.println();
         }
     }
 }
