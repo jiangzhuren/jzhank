@@ -1,18 +1,16 @@
-package org.example.jzbank;
+package org.example.jzbank.member;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
-
 import static java.lang.System.*;
-
-public class ReadTest {
+public class AutoRead {
     public static void main(String[] args) throws Exception {
         final String SLB = "slb member s_";
+        Scanner sc = new Scanner(in);
         String ip = "";
         int port;
         ArrayList<Integer> ar = new ArrayList<>();
         ArrayList<String> writeList = new ArrayList<>();
-        Scanner sc = new Scanner(in);
         out.println("请输入桌面上要读取的文件名");
         String readFilename = sc.next();
         String fileName = "C:\\Users\\24741\\Desktop\\" + readFilename;
@@ -48,7 +46,7 @@ public class ReadTest {
             }
             writer.close();
         } catch (Exception e) {
-            out.println();
+            out.println("生成文件出错");
         }
     }
 }

@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4da1df3-fb86-4160-a1e5-aba680212351" name="变更" comment="生成真实服务器 V1.0">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jzbank/AutoRead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jzbank/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jzbank/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jzbank/PrintFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jzbank/PrintFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jzbank/ReadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jzbank/member/AutoRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jzbank/RealServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jzbank/member/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +45,29 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/迅雷下载/jzbank",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/迅雷下载/jzbank&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="应用程序.ReadTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jzbank.Main" />
+}</component>
+  <component name="RunManager" selected="应用程序.Main">
+    <configuration name="AutoRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jzbank.member.AutoRead" />
       <module name="jzbank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.jzbank.*" />
+          <option name="PATTERN" value="org.example.jzbank.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.jzbank.ReadTest" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jzbank.Main" />
       <module name="jzbank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.jzbank.*" />
+          <option name="PATTERN" value="org.example.jzbank.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,8 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.ReadTest" />
         <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.AutoRead" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +108,8 @@
       <workItem from="1674970414877" duration="2052000" />
       <workItem from="1674972977139" duration="7459000" />
       <workItem from="1674992597300" duration="1612000" />
-      <workItem from="1675045989436" duration="1452000" />
+      <workItem from="1675045989436" duration="4773000" />
+      <workItem from="1675147136126" duration="1724000" />
     </task>
     <task id="LOCAL-00001" summary="生成真实服务器 V1.0">
       <created>1674992643831</created>
@@ -111,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674992643831</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="生成真实服务器 V1.0">
+      <created>1675057061709</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675057061709</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

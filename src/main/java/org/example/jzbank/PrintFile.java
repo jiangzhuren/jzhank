@@ -1,16 +1,14 @@
 package org.example.jzbank;
-
+import org.example.jzbank.member.Member;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
-
 public class PrintFile {
-    RealServer rs = new RealServer();
+    Member rs = new Member();
     Scanner sc = new Scanner(System.in);
-
     public PrintFile() throws IOException {
         try {
             System.out.println("请输入文件名");
